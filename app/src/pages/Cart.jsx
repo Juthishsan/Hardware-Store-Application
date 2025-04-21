@@ -379,7 +379,7 @@ const Cart = ({ componentrender }) => {
     messageBody += `Phone: ${address.phone}\n`;
 
     // Construct the Twilio API request
-    const twilioUrl = 'https://api.twilio.com/2010-04-01/Accounts/AC1e1a19c88f9fe54b01f012134028a347/Messages.json';
+    const twilioUrl = process.env.REACT_APP_TWILIO_ID;
     const credentials = 'AC1e1a19c88f9fe54b01f012134028a347:be042dede79a856601429ff67fb35127';
     const to = `whatsapp:+919965929856`;
     const from = 'whatsapp:+14155238886'; // Your Twilio WhatsApp number
