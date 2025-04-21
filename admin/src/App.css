@@ -1,0 +1,82 @@
+.navigation {
+  color: black;
+  font-size: 16px;
+}
+
+.navigation:hover {
+  color: blue;
+  transition: 0.3s;
+}
+
+
+.text-coral {
+  color: black !important;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active {
+  outline: none;
+  box-shadow: none;
+}
+
+
+
+.navbar-toggler,
+.bi-list {
+  font-size: xx-large;
+}
+
+
+
+
+.swal2-popup {
+  border-radius: 20px;
+}
+
+
+
+.swal2-container {
+  backdrop-filter: blur(4px);
+}
+
+
+
+.swal2-confirm,
+.swal2-cancel {
+  border-radius: 30px !important;
+  background-color: lightgray !important;
+  color: black !important;
+  box-shadow: none !important;
+}
+
+
+.spinner-border {
+  color: black !important;
+}
+
+
+
+
+.image-container {
+  position: relative;
+  text-align: center;
+}
+
+.centered {
+  position: absolute;
+  top: 59%;
+  left: 50%;
+  color: rgb(0, 0, 0);
+  transform: translate(-50%, -50%);
+  text-align: center;
+
+}
+
+.same-height {
+  height: 300px !important;
+
+}
+
+.max-width-password {
+  max-width: 500px;
+}
