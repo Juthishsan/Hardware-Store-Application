@@ -1,5 +1,9 @@
 {
   "projects": {
-    "default": "sivaraj-stores"
-  }
+    "default": "sivaraj-stores",
+    "staging": "electronic-stores",
+    "hardware": "electronic-stores"
+  },
+  "targets": {},
+  "etags": {}
 }

@@ -5,15 +5,15 @@ import { getStorage } from "firebase/storage"
 
 
 const firebaseConfig = {
-    apiKey: "AIzaSyAVNpOcZtMQrAwlh7oo2SIHLN0MvqklvpQ",
-    authDomain: "sivaraj-stores.firebaseapp.com",
-    databaseURL: "https://sivaraj-stores-default-rtdb.firebaseio.com",
-    projectId: "sivaraj-stores",
-    storageBucket: "sivaraj-stores.appspot.com",
-    messagingSenderId: "215727300380",
-    appId: "1:215727300380:web:b4d9c3a2d4a2b8432ba4d9",
-    measurementId: "G-EVYKXZHKN5"
-  };
+  apiKey: "AIzaSyDaF5OHf-A4uWpNNuE9Jy7K-ipyFkkPTOI",
+  authDomain: "electronic-stores.firebaseapp.com",
+  databaseURL: "https://electronic-stores-default-rtdb.firebaseio.com",
+  projectId: "electronic-stores",
+  storageBucket: "electronic-stores.firebasestorage.app",
+  messagingSenderId: "1054071262992",
+  appId: "1:1054071262992:web:11bf641ae6632594615f95",
+  measurementId: "G-868VZKHSD8"
+};
 
 
 const app = initializeApp(firebaseConfig);
